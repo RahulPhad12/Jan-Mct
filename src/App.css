@@ -1,0 +1,114 @@
+:root {
+  --text-primary: #000;
+  --light-blue: #e6f7ff;
+  --border: #d9d9d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  overflow: hidden;
+}
+
+.navbar {
+  flex: 0.2;
+}
+
+.home-heading-container {
+  color: darkviolet;
+}
+
+.main {
+  flex: 0.8;
+  width: 100%;
+}
+.routes {
+  padding: 20px;
+  background-color: #131313;
+}
+.nav-container {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  margin: 0px;
+}
+
+.logo-container {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  margin: 10px 0 0 15px;
+}
+.logo a {
+  font-weight: bold;
+  color: #af24b0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.stats {
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #f8f8f9;
+}
+
+.select-news {
+  width: 180px;
+}
+.news-card {
+  min-height: 300px !important;
+}
+.news-image-container {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.news-title {
+  width: 70%;
+}
+
+.news-image-container .img {
+  width: 100px;
+  height: 100px;
+}
+.news-card p {
+  color: black;
+  margin: 10px 0px !important;
+}
+.provider-container {
+  display: flex;
+  justify-content: space-between;
+}
+.provider-name {
+  margin-left: 10px;
+}
+
+.home-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.crypto-card-container {
+  min-height: 65vh !important;
+}
+.crypto-card {
+  min-width: 250px;
+}
+.crypto-card .crypto-image {
+  width: 35px;
+}
+
+.footer {
+  background-color: #001529;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
